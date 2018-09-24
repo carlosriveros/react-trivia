@@ -1,0 +1,23 @@
+.ui.list .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.ui.list .item .content {
+text-align: justify;
+}
+
+i.icon.times {
+  color: red
+}
+
+i.icon.check.circle {
+  color: green
+}
+
+footer {
+  margin: 20px 0
+}

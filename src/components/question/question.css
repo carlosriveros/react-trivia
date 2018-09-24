@@ -1,0 +1,19 @@
+section.ui.segment {
+  background: #AA3939;
+}
+
+section p{
+font-size: 1.5rem;
+}
+
+section.ui button.ui.button {
+  width: 100px;
+}
+
+section.ui button.ui.button:first-of-type {
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 1.2rem;
+}

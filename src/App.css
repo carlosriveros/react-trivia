@@ -1,0 +1,26 @@
+body {
+  background: rgb(236, 201, 201);
+  font-size: 14px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+min-height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 20px !important;
+}
+
+section p {
+  font-size: 1.5rem;
+}
+
+section, header {
+  text-align: center;
+}
