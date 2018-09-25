@@ -1,3 +1,7 @@
+.ui.list {
+  max-width: 800px;
+}
+
 .ui.list .item {
   display: flex;
   flex-direction: row;
@@ -5,6 +9,11 @@
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
+
+.ui.list .item p {
+  margin-bottom: 0px;
+}
+
 
 .ui.list .item .content {
 text-align: justify;

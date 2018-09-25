@@ -41,7 +41,7 @@ class Question extends React.Component {
     const { question: {question, category}, currentQuestion, totalQuestions, history} = this.props
     return <React.Fragment>
       <HeadLine primaryText={category} />
-      <section className="ui segment">
+      <section className="ui segment question">
         <p dangerouslySetInnerHTML={{__html: `${question}`}} />
         <Button primary onClick={() => this.answerQuestion('True')}>True</Button>
         <Button secondary onClick={() => this.answerQuestion('False')}>False</Button>

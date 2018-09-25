@@ -1,6 +1,7 @@
 body {
   background: rgb(236, 201, 201);
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif
 }
 .App {
   display: flex;
@@ -23,4 +24,18 @@ section p {
 
 section, header {
   text-align: center;
+}
+
+.ui.primary.button {
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.fade-enter, .fade-exit {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity:1;
+  transition: opacity 800ms ease-in;
 }

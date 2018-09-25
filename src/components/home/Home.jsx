@@ -26,6 +26,7 @@ const Home = ({requestTrivia, trivia: { requestingTrivia } , history}) => {
         history.push('1')
       })
   }
+  
   return (
   <React.Fragment>
     <HeadLine primaryText="Welcome to the Trivia Challenge!" />

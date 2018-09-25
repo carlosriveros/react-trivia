@@ -1,5 +1,7 @@
-section.ui.segment {
+section.ui.segment.question {
   background: #AA3939;
+  max-width: 500px;
+  margin-top: 20px !important;
 }
 
 section p{
