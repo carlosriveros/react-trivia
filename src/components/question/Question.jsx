@@ -38,7 +38,7 @@ class Question extends React.Component {
   }
 
   render () {
-    const { question: {question, category}, currentQuestion, totalQuestions, history} = this.props
+    const { question: {question, category}, currentQuestion, totalQuestions} = this.props
     return <React.Fragment>
       <HeadLine primaryText={category} />
       <section className="ui segment question">

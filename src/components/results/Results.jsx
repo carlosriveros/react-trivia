@@ -1,6 +1,5 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { fetch } from '../../services/http'
 import { List, Button } from 'semantic-ui-react'
 import HeadLine from '../../ui-components/HeadLine'
 import './results.css'
